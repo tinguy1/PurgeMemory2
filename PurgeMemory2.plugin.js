@@ -18,7 +18,7 @@ module.exports = class PurgeMemory2 {
 	
 	start() {
 	 BdApi.showToast('Starting PurgeMemory2', {type: 'info'})
-     this.purgeMemoryScript();
+         this.purgeMemoryScript();
 	}
     onStop() {
         clearInterval(this.purgeInterval);
